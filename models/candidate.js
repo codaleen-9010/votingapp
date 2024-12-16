@@ -2,7 +2,7 @@ const mongoose= require('mongoose');
 const bcrypt = require('brypt');
 const { required } = require('joi');
 
-
+//comment
 const CandidateSchema= new mongoose.Schema({
     name:{
         type:String,
